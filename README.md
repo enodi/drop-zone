@@ -7,6 +7,8 @@ Create-react-app was used to generate the scaffolding for this application. To r
 - Start the application using: `npm start`
 - Navigate to app in [browser](http://localhost:3000)
 - Enjoy!
+
+Link to deployed version of the application: https://drop-zone.vercel.app/
 # Drop Zone
 Diff technical interview question.
 
