@@ -1,3 +1,12 @@
+# How to run the application
+Create-react-app was used to generate the scaffolding for this application. To run the react application, please follow the instruction below:
+
+- Clone this repo to your local directory of choice by running `git clone https://github.com/enodi/drop-zone.git`
+- Navigate to this project root directory e.g `cd drop-zone`
+- Run `npm install` to install project dependencies
+- Start the application using: `npm start`
+- Navigate to app in [browser](http://localhost:3000)
+- Enjoy!
 # Drop Zone
 Diff technical interview question.
 
