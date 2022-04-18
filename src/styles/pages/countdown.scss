@@ -1,0 +1,47 @@
+.countdown {
+  display: flex;
+
+  @media screen and (max-width: $break1) {
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .countdown-item {
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: $break1) {
+      margin-right: 0px;
+    }
+  }
+
+  .countdown-label {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2vh;
+    line-height: 28px;
+    letter-spacing: 0.15em;
+    margin-top: 15px;
+
+    @media screen and (max-width: $break1) {
+      margin-top: 0px;
+      font-size: 1.5vh;
+    }
+  }
+
+  .timer {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Rozha One', serif;
+    margin-right: 12px;
+    padding: 0px 16px;
+    font-size: 4.3vh;
+
+    @media screen and (max-width: $break1) {
+      font-size: 3.5vh;
+      padding: 0px 12px;
+      margin-right: 6px;
+    }
+  }
+}

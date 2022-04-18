@@ -1,0 +1,61 @@
+.background {
+  background-image: url("/images/landing.jpg");
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.wrapper {
+  padding: 20px 29px 0;
+  width: 100vw;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+
+  @media screen and (max-width: $break1) {
+    display: initial;
+  }
+}
+
+.content {
+  grid-column-start: 3;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 85vh;
+
+  @media screen and (max-width: $break1) {
+    justify-content: flex-end;
+    align-items: center;
+    height: 80vh;
+  }
+
+  h1 {
+    font-weight: 900;
+    font-size: 4.3vh;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 66px;
+
+    @media screen and (max-width: $break1) {
+      margin-bottom: 30px;
+    }
+  }
+
+  .drop {
+    text-transform: uppercase;
+    margin-top: 36px;
+    font-size: 18px;
+
+    @media screen and (max-width: $break1) {
+      margin-top: 0px;
+    }
+  }
+}
